@@ -1,0 +1,127 @@
+# Python program to sort a list using a function
+# getting list , using function - sort the list and print it
+
+listofnum = [5, 2, 9, 1, 5, 6]
+rangei = len(listofnum)
+
+
+for i in range(0,rangei):
+    min = listofnum[0]
+    for k in listofnum:
+        if min > k:
+            min = k
+    print('minimum: ',min)
+    listofnum.remove(min)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
